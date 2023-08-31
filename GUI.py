@@ -5,7 +5,7 @@ from PIL import ImageTk, Image
 import numpy
 from keras import models
 from keras.models import load_model
-model = models.load_model(r"C:\Users\MANIKANTA POTNURU\Documents\Documents\MINI PROJECT\Codes\model.h5")
+model = models.load_model(r"./model.h5")
 
 classes = {1: 'Speed limit (20km/h)',
            2: 'Speed limit (30km/h)',
